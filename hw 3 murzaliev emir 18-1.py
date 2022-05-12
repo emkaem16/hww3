@@ -11,7 +11,7 @@ class Fraction:
         self.numertor = numertor // hcf1
         self.denumerator = denumerator // hcf1
 
-    def str(self):
+    def __str__(self):
         if self.denumerator == 1:
             return str(self.numertor)
 
